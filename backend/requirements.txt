@@ -1,0 +1,8 @@
+Flask==3.0.3
+Flask-CORS==4.0.1
+SQLAlchemy==2.0.32
+alembic==1.13.2
+python-dotenv==1.0.1
+plaid-python==19.0.0
+boto3==1.34.162
+werkzeug==3.0.3

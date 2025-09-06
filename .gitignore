@@ -1,0 +1,51 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# ---- Virtualenv 
+.venv/
+venv/
+ENV/
+
+# ---- OS/Editors 
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ---- Environment files (секреты) 
+.env
+.env.*
+!.env.example
+
+# ---- Databases / local data 
+*.db
+*.sqlite
+*.sqlite3
+backend/demo.db
+
+# ---- Logs / temp 
+*.log
+tmp/
+temp/
+cache/
+*.bak
+*.orig
+
+# ---- Node 
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
