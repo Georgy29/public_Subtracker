@@ -22,7 +22,7 @@ class Transaction(Base):
     merchant_name: Mapped[str | None] = mapped_column(String(255))
     amount: Mapped[float | None] = mapped_column(Float)
     iso_currency_code: Mapped[str | None] = mapped_column(String(10))
-    date: Mapped[str | None] = mapped_column(String(20))  # 'YYYY-MM-DD' (для простоты)
+    date: Mapped[str | None] = mapped_column(String(20))  
     raw: Mapped[dict | None] = mapped_column(JSON)
 
     vendor = relationship("Vendor", back_populates="transactions")
