@@ -98,3 +98,9 @@ Includes smoke tests (API demo flow) and a unit test for subscription detection.
 - Subscription detection heuristic: `backend/detection.py`
 - API routes + Swagger bindings: `backend/api_routes.py`, `backend/api_schemas.py`
 - App bootstrap + OpenAPI config: `backend/app.py`
+
+## Screenshots
+### Detect subscriptions from transactions
+![Detect subscriptions](docs/subscriptions.png)
+### AWS Texract invoice parsing example
+![AWS Textract](docs/aws-textract.png)
