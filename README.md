@@ -23,7 +23,7 @@ Open:
 
 ## Quickstart (local - optional)
 
-Prerequisites: Python 3.10-3.12 (recommended 3.11). Note: SQLAlchemy 2.0.x does not support Python 3.13/3.14 yet.
+Prerequisites: Python 3.10-3.12 (recommended 3.11).
 
 ```bash
 cd backend
